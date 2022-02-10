@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+    background-color: #4e5050;
+}
+
+.container {
+    background-color: #e7eeee;
+    font-family: Poppins, sans-serif;
+    border-radius: 5px;
+}
+
+.nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 30px;
+    box-shadow: 0px 2px 7px #a9adad;
+
+}
+
+.hero {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--photo {
+    max-width: 300px;
+    align-self: center;
+}
+
+.hero--title {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.hero--description {
+    max-width: 65%;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+section {
+    padding: 20px;
+}
+.card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+.card--photo {
+    border-radius: 6px;
+    width: 100%;
+}
+
+.card--badge {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 3px;
+    background-color: #fff;
+    font-size: 9px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.card--stats {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.card--stats > img {
+    width: 10px;
+    margin-right: 2px;
+}
+
+.card--title {
+    font-size: 10px;
+    margin: 5px 0px;
+}
+
+.card--price {
+    font-size: 12px;
+    margin: 0;
+}
